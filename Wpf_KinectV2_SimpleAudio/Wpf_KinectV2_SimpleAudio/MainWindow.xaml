@@ -1,0 +1,14 @@
+﻿<Window x:Class="Wpf_KinectV2_SimpleAudio.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525">
+    <StackPanel x:Name="StackPanel_Container">
+        <Label x:Name="Label_BeamAngle" Content="BeamAngle : "/>
+        <Label x:Name="Label_Confidence" Content="Confidence : "/>
+        <Rectangle x:Name="Rectangle_BeamAngle" Height="100" Width="10" Fill="Red"
+                   HorizontalAlignment="Center" VerticalAlignment="Top" />
+        <Label x:Name="Label_Speaker" Content="Speakers : "/>
+        <Label x:Name="Label_Decibel" Content="dB : "/>
+        <Rectangle x:Name="Rectangle_dBMeter" Height="50" Fill="GreenYellow" HorizontalAlignment="Left" />
+    </StackPanel>
+</Window>
